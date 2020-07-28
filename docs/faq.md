@@ -16,6 +16,7 @@
 *   [Add (or update) the Java system path.](#add-update-java-path)
 *   [Mcss has crashed and I want to help fix it.](#crashed-help-dev)
 *   [The UTF-8 encoding doesn't work, I *really really* need it to work.](#utf-8)
+*   [MCSS Imports servers in system32 instead of it's folder](#mcss-system32)
 
 
 <a name="error-occurred-during-initialization-of-vm"></a>
@@ -176,3 +177,10 @@ After setting this all up, this still doesn't guarantee that it will work. This 
 (sources)
 *   <https://stackoverflow.com/a/57134096>,
 *   <https://books.google.be/books?id=tkFPDwAAQBAJ&pg=PA436&lpg=PA436&dq=UTF-8+is+a+second-class+citizen+in+Windows&source=bl&ots=E9LdoNrGie&sig=ACfU3U0CaOrY_k5aj-tZ8xri76hgEAZ5Vw&hl=en&sa=X&ved=2ahUKEwja_vj00-DoAhVFDuwKHdBjAiwQ6AEwAHoECAsQKQ>
+
+
+
+<a name="mcss-system32"></a>
+## "MCSS imports servers inside the system32 folder."
+
+If MCSS imports servers inside the system32 folder, probably it cannot write files to the folder where is in it. Move MCSS to a non write protected folder. 
