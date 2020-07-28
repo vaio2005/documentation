@@ -14,6 +14,8 @@ These are bare <u>minimum</u> requirements, these are <u>needed</u> to run and o
 *   Stable internet connection, wired is highly preferred
 *   Port forward capable modem/router (for online multiplayer)
 
+Please keep in mind to <u>NOT</u> start MC Server Soft in the download folder. Extract it somewhere else (desktop for example).
+
 ## Contribute to official documentation
 
 You are welcome to click on the “Edit this Page” button (pencil icon) on any page to propose a change in the official documentation whenever you see something that you think can be improved.
