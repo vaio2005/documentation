@@ -27,3 +27,5 @@ nav:
    - Create a Forge server: create-forge-server.md
  - FAQ:
    - faq.md
+ - MC FAQ:
+   - Can't keep up: performance.md
